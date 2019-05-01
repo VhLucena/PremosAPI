@@ -1,0 +1,16 @@
+{
+  "name": "premosapi",
+  "version": "1.0.0",
+  "description": "API RESTFul for Predict Model of Suicide for Drug Users",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "Vinicius Lucena",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http-status": "^1.3.2"
+  }
+}
