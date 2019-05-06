@@ -77,7 +77,7 @@ Premos API stands for PREdiction MOdelS. It's part of the course completion proj
 - The result of the classification for the input data is:
 ```
 {
-    "class": Nao
+    "class": "Nao"
 }
 ```
 
