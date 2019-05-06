@@ -84,7 +84,7 @@ A RESTful APi is an Application Program Interface (API) that uses HTTP requests 
 - The result of the classification for the input data is:
 ```
 {
-    "class": Nao
+    "class": "Nao"
 }
 ```
 
