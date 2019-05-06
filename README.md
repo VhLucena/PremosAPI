@@ -2,14 +2,21 @@
 
 ## Description
 
-Premos API stands for PREdiction MOdelS. It's part of the course completion project in Computer Engineering by Universidade Federal do Rio Grande
+Premos API stands for PREdiction MOdelS. It's part of the course completion project in Computer Engineering by Universidade Federal do Rio Grande. 
+
+PremosAPI is used to predict whether or not a given drug user has attempted to commit suicide. To do this, the API predicts using four different machine learning models:
+Adaboost, Random Forest, SVM and Stacking involving the previous three.
+
+PremosAPI is a RESTful API implemented using the NodeJS framework.
+A RESTful APi is an Application Program Interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data. The PremosAPI currently supports GET request only, in order to make predictions.
+
 
 ## The Big Picture
 
 ![Big Picture](images/Modelagem-Deploy.png) 
 
 ## How to use the PremosAPI
-- The input data is represented as json file. One example of input is shown below:
+- The input data represents a drug user, he must fill out a form and the responses are encoded in a json file and sent to PremosAPI through an HTTP request with the verb GET. One example of input is shown below:
 
 ```
 {
@@ -81,4 +88,4 @@ Premos API stands for PREdiction MOdelS. It's part of the course completion proj
 }
 ```
 
-The API returns if the drug user in question has already attempted to commit suicide or not.
+- The API returns if the drug user in question has already attempted to commit suicide or not.
